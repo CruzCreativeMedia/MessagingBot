@@ -1,0 +1,29 @@
+[[package]]
+name = "schedule"
+version = "1.1.0"
+description = "Job scheduling for humans."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "slack"
+version = "0.0.2"
+description = "a DI container"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "c3e2d1389d8a01fb34985bbf24cfdc1d5f8a6d199e4edb96d61e9dfbaf57aa3a"
+
+[metadata.files]
+schedule = [
+    {file = "schedule-1.1.0-py2.py3-none-any.whl", hash = "sha256:617adce8b4bf38c360b781297d59918fbebfb2878f1671d189f4f4af5d0567a4"},
+    {file = "schedule-1.1.0.tar.gz", hash = "sha256:e6ca13585e62c810e13a08682e0a6a8ad245372e376ba2b8679294f377dfc8e4"},
+]
+slack = [
+    {file = "slack-0.0.2.tar.gz", hash = "sha256:e0b0cd3ba730e81aa82eef0973a7970652b99f6445cb71a6dde1d29e6d13b051"},
+]
